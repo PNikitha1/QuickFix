@@ -1,0 +1,105 @@
+.dashboardContainer {
+    padding: 20px;
+    background-color: #f9f9f9;
+    max-width: 800px; /* Center and limit the width */
+    margin: 0 auto; /* Center the dashboard */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  /* h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+   */
+  .section {
+    margin-bottom: 30px; /* Space between sections */
+    padding: 15px;
+    background-color: #ffffff; /* White background for sections */
+    border-radius: 5px; /* Rounded corners for sections */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* h2 {
+    color: #555; /* Dark gray for subheadings 
+    margin-bottom: 10px; 
+}
+   */
+  .ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+  }
+  
+  .li {
+    margin: 10px 0; /* Space between list items */
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0; /* Light gray border for separation */
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column; /* Stack form elements vertically */
+    gap: 10px; /* Space between form elements */
+    margin-top: 10px; /* Space above the form */
+  }
+  
+  .label {
+    font-weight: bold; /* Bold text for labels */
+  }
+  
+  .input {
+    padding: 10px; /* Padding inside input fields */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+    width: 100%; /* Full width */
+  }
+  
+  .input:focus {
+    border-color: #0070f3; /* Blue border on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  .button {
+    padding: 10px 15px; /* Padding for buttons */
+    background-color: #0070f3; /* Blue background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .button:hover {
+    background-color: #005bb5; /* Darker blue on hover */
+  }
+  
+  .button:disabled {
+    background-color: #ccc; /* Gray background for disabled state */
+    cursor: not-allowed; /* Not allowed cursor for disabled state */
+  }
+  
+  .reviewText {
+    margin-top: 10px; /* Space above review text */
+    font-style: italic; /* Italics for reviews */
+    color: #666; /* Light gray for review text */
+  }
+  
+  @media (max-width: 600px) {
+    .dashboardContainer {
+      padding: 15px; /* Less padding on smaller screens */
+    }
+  
+    .section {
+      padding: 10px; /* Less padding in sections */
+    }
+  
+    .input {
+      padding: 8px; /* Less padding in input fields */
+    }
+  
+    .button {
+      padding: 8px 12px; /* Less padding in buttons */
+    }
+  }
+  
